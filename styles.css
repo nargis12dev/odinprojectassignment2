@@ -1,0 +1,161 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Fonts */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 100px 80px;
+}
+
+/* Navbar */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+/* Header top */
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 100px;
+    height: auto;
+    width: 400px;
+}
+
+/* Hero Text */
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+/* Button */
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Hero Image */
+.hero-image img {
+    width: 400px;
+    border-radius: 8px;
+}
+.information-section {
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.information-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+/* Cards Container */
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 180px;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.card p {
+    color: #555;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-section h4 {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.cta-section {
+    padding: 80px 100px;
+}
+.cta-box {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-button button {
+    border: 2px solid white;
+}
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
